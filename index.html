@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alif Khan BD — Gaming Portfolio</title>
+  <meta name="description" content="Personal gaming portfolio for Alif Khan — gamer, streamer, and content creator." />
+  <meta name="theme-color" content="#0ff" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="cursor" class="cursor-glow" aria-hidden="true"></div>
+
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <div style="font-size:14px; color:var(--muted); line-height:1">Portfolio</div>
+          <div style="font-size:18px; font-weight:900; letter-spacing:.4px">  Alif Khan </div>
+        </div>
+      </div>
+      <div class="links">
+        <a href="#about" class="btn">About</a>
+        <a href="#projects" class="btn">Projects</a>
+        <a href="#contact" class="btn">Contact</a>
+        <a href="#" class="btn primary" id="dl-cv">Download CV</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero container">
+    <div class="hero-grid">
+      <div>
+        <h1 class="title">Hi, I'm <span class="grad">Alif Khan </span> — Gamer, Streamer & Content Creator.</h1>
+        <p class="subtitle" id="type">I create cracked montages, stream competitive matches, and build gaming communities.</p>
+        <div class="badges">
+          <span class="badge">Free Fire</span>
+          <span class="badge">PUBG Mobile</span>
+          <span class="badge">Valorant</span>
+          <span class="badge">Thumbnail & Edit</span>
+          <span class="badge">Bangla & English</span>
+        </div>
+        <div class="cta">
+          <a class="btn primary" href="#projects">See My Work</a>
+          <a class="btn" href="#contact">Hire Me</a>
+        </div>
+      </div>
+      <div class="card p-20">
+        <div class="avatar">
+          <div class="scanlines"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="container">
+    <h2 class="section-title">About Me</h2>
+    <p class="section-sub">Bangladeshi gamer based in Dhaka. I specialize in mobile shooters, high-energy edits, and entertaining live streams. I love building squads and communities around fair play and fun.</p>
+    <div class="skills">
+      <div class="skill">
+        <h4>Montage Editing</h4>
+        <div class="bar" aria-label="Montage Editing"><div class="fill" style="--val:92%"></div></div>
+      </div>
+      <div class="skill">
+        <h4>Thumbnail Design</h4>
+        <div class="bar" aria-label="Thumbnail Design"><div class="fill" style="--val:88%"></div></div>
+      </div>
+      <div class="skill">
+        <h4>Streaming & Hosting</h4>
+        <div class="bar" aria-label="Streaming & Hosting"><div class="fill" style="--val:85%"></div></div>
+      </div>
+      <div class="skill">
+        <h4>In-Game IGL</h4>
+        <div class="bar" aria-label="IGL"><div class="fill" style="--val:83%"></div></div>
+      </div>
+      <div class="skill">
+        <h4>Motion Graphics</h4>
+        <div class="bar" aria-label="Motion Graphics"><div class="fill" style="--val:72%"></div></div>
+      </div>
+      <div class="skill">
+        <h4>Community Growth</h4>
+        <div class="bar" aria-label="Community Growth"><div class="fill" style="--val:78%"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="container">
+    <h2 class="section-title">Featured Projects</h2>
+    <p class="section-sub">A few highlights from my gaming work — tournaments, edits, and collabs.</p>
+    <div class="grid">
+      <article class="project col-4">
+        <div class="thumb"></div>
+        <div class="meta">
+          <span class="tag">Free Fire</span>
+          <h3>Blue Flame — Ultra Fast UMP Montage</h3>
+          <p>High BPM cuts, kinetic typography, and synced SFX. 60k+ views.</p>
+        </div>
+      </article>
+      <article class="project col-4">
+        <div class="thumb"></div>
+        <div class="meta">
+          <span class="tag">PUBG Mobile</span>
+          <h3>Squad Wipe — Miramar Customs</h3>
+          <p>IGL + clutch moments with live comms, 1080p60 render.</p>
+        </div>
+      </article>
+      <article class="project col-4">
+        <div class="thumb"></div>
+        <div class="meta">
+          <span class="tag">Valorant</span>
+          <h3>Agent Flicks — Jett Highlights</h3>
+          <p>Slow-mo + motion blur pack; color grading in DaVinci.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2 class="section-title">Latest Upload</h2>
+    <p class="section-sub">Watch my recent stream highlight.</p>
+    <div class="video-embed card">
+      <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="contact" class="container">
+    <h2 class="section-title">Contact / Hire Me</h2>
+    <p class="section-sub">Collab, edit, or event hosting? Slide a message — I reply within 24 hours.</p>
+    <div class="contact-grid">
+      <form class="card p-20" onsubmit="event.preventDefault(); alert('Thanks! I\'ll reach out soon.');">
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px">
+          <input required placeholder="Your name" aria-label="Your name" />
+          <input required type="email" placeholder="Email address" aria-label="Email" />
+        </div>
+        <input placeholder="Subject (optional)" aria-label="Subject" />
+        <textarea rows="5" required placeholder="Tell me about your project..." aria-label="Message"></textarea>
+        <button class="btn primary" type="submit">Send Message</button>
+      </form>
+      <div class="card p-20">
+        <h3 style="margin-top:0">Booking Info</h3>
+        <p class="section-sub" style="margin:6px 0 14px">Available for montage edits, thumbnails, live stream hosting, and team coaching.</p>
+        <ul style="list-style:none; padding:0; margin:0; display:grid; gap:10px">
+          <li>✅ 48–72h turnaround for standard edits</li>
+          <li>✅ Revisions included (up to 2)</li>
+          <li>✅ Source files on request</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container" style="display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap">
+      <div>© <span id="year"></span> Alifr Khan . All rights reserved.</div>
+      <div style="display:flex; gap:8px; align-items:center">
+        <label style="font-size:14px; color:var(--muted)">Glow:</label>
+        <input id="glowToggle" type="range" min="0" max="100" value="90" title="Adjust background glow" />
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
